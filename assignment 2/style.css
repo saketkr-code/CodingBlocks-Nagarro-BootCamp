@@ -1,0 +1,48 @@
+/* css reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.templet {
+  margin: 30px;
+}
+
+.templet .heading {
+  background-color: #fff;
+  border: 2px solid grey;
+  text-align: center;
+  margin-bottom: 10px;
+  width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+
+.templet .content {
+  border: 2px solid grey;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.content-special i {
+  color: green;
+}
+
+.templet .content-special .row {
+  display: flex;
+  border-bottom: solid 1px #4f4f4f;
+  margin: 10px;
+}
+
+.templet .content-special .details {
+  padding: 0 20px;
+}
+
+.details h4,
+.details h5 {
+  font-weight: 200;
+}
